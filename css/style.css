@@ -1,1 +1,10 @@
 /* ini adalah file css */
+
+main {
+  max-width: 750px;
+  justify-self: center;
+}
+
+.main-header {
+  text-align: center;
+}
