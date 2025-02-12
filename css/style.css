@@ -3,8 +3,65 @@
 main {
   max-width: 750px;
   justify-self: center;
+  background-color: whitesmoke;
+  padding: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .main-header {
   text-align: center;
+  color: rgb(0, 0, 52);
+}
+
+#main-input {
+  margin: 10px 0px;
+  width: 98%;
+  height: 40px;
+}
+
+#main-result {
+  margin: 10px 0px;
+  width: 98%;
+  height: 40px;
+}
+
+.form-fahrenheit {
+  margin-top: 10px;
+}
+
+#cara-konversi {
+  margin: 10px 0px;
+  width: 98%;
+  height: 40px;
+}
+
+.btn > button {
+  margin-right: 10px;
+}
+
+.span-s {
+  font-size: large;
+  font-style: italic;
+}
+
+#reverse-nav {
+  color: blue;
+  display: inline-block;
+  margin: 0px;
+  transition: background-color 0.3s ease;
+}
+
+#reverse-nav:hover {
+  background-color: rgb(43, 107, 226);
+  color: aqua;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    background-color: lightskyblue;
+  }
 }
